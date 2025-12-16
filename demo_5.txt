@@ -1,0 +1,23 @@
+######################################################################
+# QR Code Generation with Detailed Logging
+# Input Text: 'Sugarplum_Fairy_Nightmare'
+# Input Length: 25 characters
+# Target Version: 1-L (19 bytes capacity)
+######################################################################
+
+======================================================================
+STEP: 1. Initialize Encoder
+======================================================================
+Creating QREncoder instance...
+  Capacity: 19 bytes
+  ECC Bytes: 7 bytes
+  Max Bits: 152 bits
+
+======================================================================
+STEP: 2. Capacity Check
+======================================================================
+Validating input length...
+❌ ERROR: Input length (25) exceeds capacity (19)
+   Stopping encoding process gracefully.
+
+[Process Stopped due to Capacity Error]
