@@ -3,9 +3,11 @@
 ## Front Page Information
 - **Module Code**: `CS2PPNU`
 - **Assignment Title**: _Python QR Code Generator_
-- **Student Number(s)**: _To be filled_
-- **Actual Hours Spent**: _Approx. XX hours_
-- **AI Tools Used**: **ChatGPT** _(documentation support only)_
+- **Student Number(s)**:
+
+
+- **Actual Hours Spent**: 
+- **AI Tools Used**: CURSOR
 
 ---
 
@@ -174,9 +176,10 @@ c Demo 5 — _Capacity Overflow_
 → File: [demo_5.txt](demo_5.txt)
 
 ### Screen recording of GUI QR generation
-[Screen recording demonstrating GUI QR generation](evidence/gui_demo.mp4)
+(gui_demo.mp4)
 
 QR CODE PICTURE OF DEMO 2
+→ File:(demo_2.png)
 
 ---
 
