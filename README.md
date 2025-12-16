@@ -222,8 +222,6 @@ GitLab CI automatically runs:
 - `pytest`
 - Validation checks
 
-### 7.2 Demonstrations
-
 ### 7.3 Integration Validation Summary
 
 An integration validation check was performed using the script
