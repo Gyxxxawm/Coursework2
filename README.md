@@ -176,7 +176,7 @@ This generates `test_validation_report.txt`.
 → File: [demo_5.txt](demo_5.txt)
 
 ### Screen recording of GUI QR generation
-(gui_demo.mp4)
+[gui_demo.mp4](gui_demo.mp4)
 
 QR CODE PICTURE OF DEMO 2
 → File:[demo_2.png](demo_2.png)
@@ -223,6 +223,24 @@ GitLab CI automatically runs:
 - Validation checks
 
 ### 7.2 Demonstrations
+
+### 7.3 Integration Validation Summary
+
+An integration validation check was performed using the script
+`run_integration_check.py` to verify that all enhancement modules
+(A–E) operate correctly when combined.
+
+The integration run produced the following artifacts:
+- ✓ [integration_test_qr.png](integration_test_qr.png) — QR code rendered using the custom
+  visual style from **Enhancement D**
+- ✓ [integration_test_history.csv](integration_test_history.csv) — consolidated logging output
+  from the integrated execution
+- ✓  [option_e_chart.png](option_e_chart.png) — analytics chart visualising generation
+  success rate from **Enhancement E**
+
+All enhancement modules passed the integration check without conflict,
+confirming the functional correctness and cohesion of the complete
+system.
 
 ---
 
