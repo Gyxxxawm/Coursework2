@@ -87,7 +87,6 @@ Main features:
 - `PNG` export
 - **Automatic logging**
 
----
 
 ### 3.3 Running Demonstration Scripts
 
@@ -101,9 +100,7 @@ This produces:
 - `demo_1.txt` – `demo_5.txt`
 - QR output images
 - Educational slideshow frames
-- Analytics charts
-
----
+- Analytics charts 
 
 ### 3.4 Running Tests and Validation
 
@@ -120,6 +117,9 @@ python validate_all_tests.py
 ```
 
 This generates `test_validation_report.txt`.
+
+---
+
 ## 4. QR Encoding Pipeline
 
 ### Step 1 — Text Encoding
@@ -154,24 +154,29 @@ This generates `test_validation_report.txt`.
 ### Demo 1 — _Basic ASCII_
 ✓ Successful encoding
 ✓ Full binary and matrix log
-→ File: `demo_1.txt`
+→ File: [demo_1.txt](demo_1.txt)
 
 ### Demo 2 — _Mixed Characters_
 ✓ Includes punctuation
-→ File: `demo_2.txt`
+→ File: [demo_2.txt](demo_2.txt)
 
 ### Demo 3 — _UTF-8 Input_
 ✓ Non-ASCII bytes
-→ File: `demo_3.txt`
+→ File: [demo_3.txt](demo_3.txt)
 
 ### Demo 4 — _Unicode Input_
 ✓ Greek characters
-→ File: `demo_4.txt`
+→ File: [demo_4.txt](demo_4.txt)
 
-### Demo 5 — _Capacity Overflow_
+c Demo 5 — _Capacity Overflow_
 ✗ Input exceeds Version 1-L
 ✓ Correctly logs capacity error
-→ File: `demo_5.txt`
+→ File: [demo_5.txt](demo_5.txt)
+
+### Screen recording of GUI QR generation
+[Screen recording demonstrating GUI QR generation](evidence/gui_demo.mp4)
+
+QR CODE PICTURE OF DEMO 2
 
 ---
 
@@ -213,6 +218,8 @@ Tests validate:
 GitLab CI automatically runs:
 - `pytest`
 - Validation checks
+
+### 7.2 Demonstrations
 
 ---
 
