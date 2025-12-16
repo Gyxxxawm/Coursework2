@@ -170,16 +170,16 @@ This generates `test_validation_report.txt`.
 ✓ Greek characters
 → File: [demo_4.txt](demo_4.txt)
 
-c Demo 5 — _Capacity Overflow_
-✗ Input exceeds Version 1-L
-✓ Correctly logs capacity error
+### Demo 5 — _Capacity Overflow_  
+✗ Input exceeds Version 1-L  
+✓ Correctly logs capacity error  
 → File: [demo_5.txt](demo_5.txt)
 
 ### Screen recording of GUI QR generation
 (gui_demo.mp4)
 
 QR CODE PICTURE OF DEMO 2
-→ File:(demo_2.png)
+→ File:[demo_2.png](demo_2.png)
 
 ---
 
